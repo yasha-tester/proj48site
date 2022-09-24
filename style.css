@@ -3,6 +3,9 @@ body {
     margin: 0px;
 
 }
+html {
+    scroll-behavior: smooth;
+}
 
 nav {
     background-color: #16a085;
