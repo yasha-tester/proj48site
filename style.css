@@ -1,0 +1,287 @@
+body {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+nav {
+    background-color: #16a085;
+    color: white;
+    padding-bottom: .25rem;
+    margin-bottom: 1rem;
+}
+
+.container-menu {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-inline: auto;
+    background-color: #fff;
+    margin-bottom: 64px;
+
+}
+
+.menu-grid {
+
+    display: inline-grid;
+    gap: 1.5rem;
+}
+
+.cardmenu {
+    color:white;
+    text-align: center;
+}
+
+img {
+    width: 360px;
+    height: 360px;
+    object-fit: cover;
+
+}
+
+
+
+.card__body {
+    position: relative;
+}
+
+.card__text {
+    position: absolute;
+    top:38%;
+    width: 100%;
+}
+.gradient {
+    background-color: rgb(0, 0, 0, 0.8);
+}
+.rounded_img{
+    border-radius: 50%;
+}
+
+.container-description {
+    padding-block: 64px;
+}
+
+.container-description, .additional-text, .img-grid-1, .img-grid-2, .info-grid {
+    margin: 64px 16px 0px;
+    padding-inline: 8px;
+    margin-bottom: 32px;
+    margin-inline: auto;
+}
+
+.container-description {
+    background-color: #2c3e50;
+    color: #fff;
+}
+.description-text, .additional-text {
+    width: 1300px;
+    margin-inline: auto;
+    text-indent: 4rem;
+
+}
+.description-text {
+    padding-bottom: 32px;
+
+}
+.div-padding {
+    padding-bottom: 32px;
+    background-color: white;
+    display: block;
+}
+.additional-text .narrow {
+    margin: 0 auto;
+    width: 1150px;
+
+}
+h2 {
+
+    text-align: center;
+    margin: 24px 0px 28px;
+    padding:16px 0px 12px;
+}
+.headers {
+    background-color: #34495e;
+    display:block;
+    padding: 0px 4rem;
+    width: 54rem;
+    border-radius: 5px;
+
+    margin-inline: auto;
+}
+.img-grid-1, .img-grid-2 {
+    display: grid;
+    grid-template-columns: repeat(300px, 1fr);
+    margin-inline: auto;
+}
+.img-grid-block {
+    background-color: #34495e;
+    border-radius: 10px;
+}
+
+.img-grid-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: fit-content;
+}
+
+.img-grid-2 {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}
+.img-1 img {
+    width: 400px;
+    height: 250px;
+}
+
+.img-2 img {
+    width: 400px;
+    height: 250px;
+}
+
+.img-3 img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+.img-4 img {
+    width: 400px;
+    height: 250px;
+}
+
+.container-info {
+    display: flex;
+    background-color:#2c3e50;
+    color: #fff;
+}
+.info-grid {
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-inline: auto;
+}
+
+.info-grid > div  {
+    padding-inline: 8px;
+    margin-bottom: 32px;
+    margin-inline: auto;
+}
+
+footer {
+    background-color: #16a085;
+    color: #fff;
+    padding-block: 0.5rem;    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    align-items: center;
+
+}
+
+.footer-links {
+    background-color: #000;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: fit-content;
+    margin-inline: auto;
+    padding: 10px 40px 10px;
+    border-radius: 10px;
+}
+
+span {
+    margin-inline: auto;
+}
+
+.footer-links a {
+    text-decoration: none;
+    text-align: center;
+    padding: 0px 10px;
+
+}
+
+.footer-icon {
+    width:35px; 
+    height:35px
+}
+.designed {
+
+    margin: 0 auto;
+    padding-inline: .35rem;
+    border-radius: 10px;
+    width:fit-content; 
+    height:35px
+}
+.sign {
+    cursor: pointer;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.5) ;
+}
+/*media queries*/
+@media (min-width:630px){
+    .container-menu {
+        width: fit-content;
+
+    }
+    .menu-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    img {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media(min-width:960px){
+
+.container-menu {
+        width: fit-content;
+    }
+.menu-grid {
+    grid-template-columns: repeat(3, 1fr);
+}
+img {
+    width: 300px;
+    height: 300px;
+    
+}
+}
+/*w3 colors*/
+.w3-flat-turquoise
+{color:#fff!important;background-color:#1abc9c!important}
+.w3-flat-emerald
+{color:#fff!important;background-color:#2ecc71!important}
+.w3-flat-peter-river
+{color:#fff!important;background-color:#3498db!important}
+.w3-flat-amethyst
+{color:#fff!important;background-color:#9b59b6!important}
+.w3-flat-wet-asphalt
+{color:#fff!important;background-color:#34495e!important}
+.w3-flat-green-sea
+{color:#fff!important;background-color:#16a085!important}
+.w3-flat-nephritis
+{color:#fff!important;background-color:#27ae60!important}
+.w3-flat-belize-hole
+{color:#fff!important;background-color:#2980b9!important}
+.w3-flat-wisteria
+{color:#fff!important;background-color:#8e44ad!important}
+.w3-flat-midnight-blue
+{color:#fff!important;background-color:#2c3e50!important}
+.w3-flat-sun-flower
+{color:#fff!important;background-color:#f1c40f!important}
+.w3-flat-carrot
+{color:#fff!important;background-color:#e67e22!important}
+.w3-flat-alizarin
+{color:#fff!important;background-color:#e74c3c!important}
+.w3-flat-clouds
+{color:#000!important;background-color:#ecf0f1!important}
+.w3-flat-concrete
+{color:#fff!important;background-color:#95a5a6!important}
+.w3-flat-orange
+{color:#fff!important;background-color:#f39c12!important}
+.w3-flat-pumpkin
+{color:#fff!important;background-color:#d35400!important}
+.w3-flat-pomegranate
+{color:#fff!important;background-color:#c0392b!important}
+.w3-flat-silver
+{color:#000!important;background-color:#bdc3c7!important}
+.w3-flat-asbestos
+{color:#fff!important;background-color:#7f8c8d!important}
