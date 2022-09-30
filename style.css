@@ -31,6 +31,7 @@ nav {
 }
 
 .cardmenu {
+
     color:white;
     text-align: center;
 }
@@ -42,14 +43,49 @@ img {
 
 }
 
+#modalContainer {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
 
+.modalContent {
+    margin-inline: auto;
+    margin-top: 3rem;
+    width: 1500px;
+    height: 680px;
+    overflow: auto;
+    background-image: url(./img/StockSnap_33N0RBNZ0W.jpg);
+    background-size: cover;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+.modal-space {
+    width: 80%;
+    margin-inline: auto;
+    padding-bottom: 10rem;
+}
+.modal-text {
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 10rem;
+}
 
+.close {
+    float: right;
+}
 .card__body {
     position: relative;
 }
 
 .card__text {
     position: absolute;
+    height: 100%;
     top:38%;
     width: 100%;
 }

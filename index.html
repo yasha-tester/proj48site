@@ -10,9 +10,7 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
     <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
 </head>
-
 <body>
 
     <header>
@@ -28,26 +26,45 @@
 
             <div class="cardmenu">
                 <div class="card__body">
-                    <a href="#aboutUs"><img class="card__image rounded_img" src="./img/shche_-team-jDIzdE_J764-unsplash.jpg" alt="">
-                    <h1 class="card__text gradient ">INFO</h1>
-                </a>
-                </div>
-            </div>
-
-            <div class="cardmenu">
-                <div class="card__body">
-                    <a href="">
-                    <img class="card__image rounded_img" src="./img/StockSnap_33N0RBNZ0W.jpg" alt="">
-                    <h1 class="card__text gradient ">Community</h1>
+                    <a href="#aboutUs">
+                    <img class="card__image rounded_img" src="./img/shche_-team-jDIzdE_J764-unsplash.jpg" alt="">
+                    <div class="card__text"><h1 class="gradient ">INFO</h1></div>
                     </a>
                 </div>
             </div>
 
+            <span id="modalOpen" style="cursor: pointer;">
             <div class="cardmenu">
                 <div class="card__body">
-                    <a href="">
+                    <img class="card__image rounded_img" src="./img/StockSnap_33N0RBNZ0W.jpg" alt="">
+                    <div class="card__text"><h1 class="gradient ">Community</h1></div>
+                </div>
+            </div>
+        </span>
+
+        <div id="modalContainer" class="modal">
+            <div class="modalContent">
+                <div class="modal-text">
+                    <span class="close" style="cursor: pointer; font-size: 1.5rem;" id="close">&times;</span>
+                <div class="modal-space">
+                <h2>Community</h2>
+                <p>Our community is functioning independently and we have a couple of chats and even a YouTube channels. It is made independently and has a free structure and organization.</p>
+                <p>We are the community: we share experience, thoughts and observations, socialize each other.</p>
+                <p>
+                    We are the world of our side.
+                </p>
+                <p>We are the Prograclub</p>
+                </div>
+                </div>
+            </div>
+        </div>
+            
+
+            <div class="cardmenu">
+                <div class="card__body">
+                    <a href="#contacts">
                     <img class="card__image rounded_img" src="./img/nicholas-ng-O6DxC6bTUMc-unsplash.jpg" alt="">
-                    <h1 class="card__text gradient ">Contactus</h1>
+                    <div class="card__text"><h1 class="gradient ">Contactus</h1></div>
                     </a>    
                 </div>
             </div>
@@ -57,7 +74,7 @@
                 <div class="card__body">
                     <a href="./learning.html">
                     <img class="card__image rounded_img" src="./img/galina-nelyubova-qY-Z-pUWy3Q-unsplash.jpg" alt="">
-                    <h1 class="card__text gradient ">Learning/lectures</h1>
+                    <div class="card__text"><h1 class="gradient ">Learning/lectures</h1></div>
                     </a>
                 </div>
             </div>
@@ -66,7 +83,7 @@
                 <div class="card__body">
                     <a href="./buy&hire.html">
                     <img class="card__image rounded_img" src="./img/luke-thornton-7Dts1-qNg4w-unsplash.jpg" alt="">
-                    <h1 class="card__text gradient ">Buy/Hire</h1>
+                    <div class="card__text"><h1 class="gradient ">Buy/Hire</h1></div>
                     </a>
                 </div>
             </div>
@@ -75,7 +92,7 @@
                 <div class="card__body">
                     <a href="./getajob.html">
                     <img class="card__image rounded_img" src="./img/luca-gossl-vPuE7HG6AHc-unsplash.jpg" alt="">
-                    <h1 class="card__text gradient ">Get a Job</h1>
+                    <div class="card__text"><h1 class="gradient ">Get a Job</h1></div>
                     </a>
                 </div>
             </div>
@@ -83,7 +100,6 @@
     </div>
 
 <div  id="aboutUs" class="container-description">
-
 
 
     <div class="description-text">
@@ -94,12 +110,12 @@
             <p> 
             For buyers we provide spectre of high quality products and often a reliable service. 
             </p>
-            For our workers we provide the right approach to become useful professional and achieving high quality. Although it is many ways to get it -- we have our checked one. </p>
+            For our workers we provide the right approach to become useful professional and achieving high quality. Although it is many ways to get it -- we have our reality checked one. </p>
             <p> 
             We also busy teaching you how to join us with your passion, talent or anything else and provide learning material as well as links for good channels and valuable sources etc.
         </p>
         <p>
-            We have our community that is contacting each other and sharing interests, opportunities, vision and experience. It is a good option to have a team at any field you want to achieve success and if you are to like the way we handle it -- you can join us and try it all out. And if you aren't satisfied or have requests or suggestions -- you can always send us your feedback with everything you think or wish. We accept bad feedback as well as good and searching for the ways to improve our activity.
+            We have our community that is contacting each other and sharing interests, opportunities, vision and experience. It is a good option to have a team at any field you want to achieve success. If you are to like the way we handle it -- you can join us and try it. And if you aren't satisfied or have requests or suggestions -- you can always send us your feedback with everything you think or wish. We accept good feedback as well as bad one and search for the ways to improve our activity.
         </p>
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima distinctio vitae accusamus? Architecto, eos optio saepe explicabo nisi qui molestias quas repellendus dolorem! Harum dicta eligendi nemo in quis aut! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam repellendus tempore, fugiat temporibus id reiciendis aliquam ipsum tempora libero quasi impedit aliquid minus placeat autem exercitationem ut vel. Corporis, enim? Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eum error molestias voluptate, est adipisci delectus ratione enim nisi voluptas? Fugiat placeat qui similique aut modi porro incidunt necessitatibus id.
@@ -126,10 +142,14 @@
         <h2 class="">Also</h2>
         </div>
         <p>
-            Also we have our media activities and couple of partner channels that are independently sharing experience and information, doing tutorials and probably other interesting things. You are to choose what is interesting here for you and we are to offer you what we have and how we can contribute to implementing good decisions and improving quality of code and well collected community. 
+            Also we have our media activities and a couple of partner channels that are independently sharing experience and information, doing tutorials and probably other interesting things. You are to choose what is interesting for you here and we are to offer you a contribute to implementing a good decisions and improving quality of code. We are the community. We are Prograclub.
         </p>
         <p>
-            If you are making videos too and it is a good content -- you can try to link us or have a contact and we will consider if we are going to post your info, tutorials and guides and give them some attention of our community.
+            If you are content creator and will to join us -- we are open to cooperation and grow larger with you, collecting good sources and renewing and fixing our old ones. Our social structure is free enough and we don't control everything -- it leads to some divergence and you can discuss something you found not fair. However -- you can visit controlled channels, as they called and made -- here some things are not allowed for sake of feeling safe.
+            You can pick any way you want.
+            <p>
+            Feel free and the work.
+        </p>
         </p>
     </div>
 
@@ -147,7 +167,7 @@
             IMPORTANT:
             </h5>
             <p>
-            We are not going to post your content if we don't find it neither funny or helpful; If it violates our norms, our ideas of respect or even terms; If it contain something that is not publically allowed -- we at most can share it privately, joke around and wont publish it.
+            We are not going to post your content if we don't find it neither funny or helpful; If it violates our norms, our ideas of respect or even terms; If it contains something that is not publically allowed -- at most we can share it privately. We can joke around or else but wont really publish it.
         </p>
         <p>
             What comes around goes around goes around goes back arooouuundd... <br>
@@ -231,8 +251,6 @@
         </div>
         </div>
 
-
-
 <footer>
 <div class="empty"><span class="sign"> Prograclub Production</span></div>
 
@@ -248,6 +266,7 @@
 <span class="sign"><img  class="designed" src="./img/icons/yasha_tester_3.png" alt=""> designed by yasha_tester</span>
 </div>
 </footer>
+<script src="main.js"></script>
 
 </body>
 
