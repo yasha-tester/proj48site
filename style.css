@@ -15,6 +15,7 @@ nav {
 
 .rounded_img{
     border-radius: 50%;
+    overflow: hidden;
 }
 .container-menu {
     display: flex;
@@ -40,6 +41,7 @@ img {
     width: 360px;
     height: 360px;
     object-fit: cover;
+
 }
 
 #modalContainer {
@@ -86,6 +88,7 @@ img {
     height: 100%;
     top:38%;
     width: 100%;
+    overflow: hidden;
 }
 h2 {
     text-align: center;
@@ -96,6 +99,7 @@ h2 {
 .gradient {
     background-color: rgb(0, 0, 0, 0.8);
     z-index: 0;
+
 }
 .container-description {
     padding-block: 64px;
@@ -164,23 +168,23 @@ h2 {
 /* images in description */
 .img-1 img {
     max-width: 100%;
-            height: auto;
+    height: auto;
 }
 
 .img-2 img {
     max-width: 100%;
-            height: auto;
+    height: auto;
 }
 
 .img-3 img {
     border-radius: 50%;
     max-width: 100%;
-            height: auto;
-            aspect-ratio: 1/1;
+    height: auto;
+    aspect-ratio: 1/1;
 }
 .img-4 img {
     max-width: 100%;
-            height: auto;
+    height: auto;
 }
 
 .container-info {
@@ -243,7 +247,7 @@ span {
     border-radius: 10px;
     width:fit-content; 
     height:35px;
-
+    
 }
 .sign {
     cursor: pointer;
@@ -283,8 +287,8 @@ span {
     }
     .img-3 img {
         border-radius: 50%;
-        max-width: 100%;
-            height: auto;
+        max-width: 300px;
+        max-height:300px;
     }
     .img-4 img {
         max-width: 100%;
@@ -301,6 +305,10 @@ span {
     .footer-links {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
+    }
+    .img-3 img {
+
+
     }
 }
 @media (min-width:700px){
@@ -338,7 +346,9 @@ span {
         width: max-content
     }
     .img-3 img {
-        width: max-content
+        width: max-content;
+        max-height:390px;
+        max-width: 390px;
     }
     .img-4 img {
         width: max-content
@@ -357,11 +367,7 @@ span {
             max-width: 100%;
             height: auto;
         }
-        .img-3 img {
-            border-radius: 50%;
-            max-width: 100%;
-            height: auto;
-        }
+
         .img-4 img {
             max-width: 100%;
             height: auto;
@@ -399,6 +405,10 @@ span {
     .narrow {
         max-width: 1000px;
 
+    }
+    .img-3 img {
+        max-width: 300px;
+        max-height:300px;
     }
 }
 /*w3 colors*/
